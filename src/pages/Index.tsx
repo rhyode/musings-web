@@ -84,22 +84,16 @@ const Index = () => {
             </div>
             <div className="flex space-x-6">
               <a 
-                href="#" 
+                href="https://x.com/maypiy5" target="_blank" rel="noopener noreferrer"
                 className="text-text-secondary hover:text-text-accent transition-colors duration-200 text-sm"
               >
                 Twitter
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/tripathi-tanmay61/" target="_blank" rel="noopener noreferrer"
                 className="text-text-secondary hover:text-text-accent transition-colors duration-200 text-sm"
               >
                 LinkedIn
-              </a>
-              <a 
-                href="#" 
-                className="text-text-secondary hover:text-text-accent transition-colors duration-200 text-sm"
-              >
-                RSS
               </a>
             </div>
           </div>

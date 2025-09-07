@@ -22,12 +22,7 @@ export const Header = () => {
               >
                 About
               </a>
-              <a 
-                href="#" 
-                className="text-text-secondary hover:text-text-accent transition-colors duration-200 text-sm font-medium"
-              >
-                Archive
-              </a>
+              
             </nav>
           </div>
           <ThemeToggle />
