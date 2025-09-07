@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimalist Blog Design System - Musings by Tanmay Tripathi
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Light Mode - White background with subtle cyan accents */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
+    
+    --card: 0 0% 99%;
+    --card-foreground: 0 0% 15%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    
+    --primary: 180 100% 95%;
+    --primary-foreground: 0 0% 15%;
+    
+    --secondary: 180 20% 97%;
+    --secondary-foreground: 0 0% 25%;
+    
+    --muted: 0 0% 98%;
+    --muted-foreground: 0 0% 45%;
+    
+    --accent: 180 60% 85%;
+    --accent-foreground: 0 0% 15%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 95%;
+    --input: 0 0% 96%;
+    --ring: 180 100% 90%;
+    
+    --radius: 0.375rem;
+    
+    /* Custom semantic tokens */
+    --text-primary: 0 0% 15%;
+    --text-secondary: 0 0% 45%;
+    --text-accent: 180 80% 35%;
+    --gradient-subtle: linear-gradient(135deg, 180 100% 98%, 0 0% 100%);
+    --shadow-minimal: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    --shadow-elevated: 0 4px 12px 0 rgb(0 0 0 / 0.05);
+  }
+
+  .dark {
+    /* Dark Mode - True minimalist black shades */
+    --background: 0 0% 3%;
+    --foreground: 0 0% 95%;
+    
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 95%;
+    
+    --popover: 0 0% 3%;
+    --popover-foreground: 0 0% 95%;
+    
+    --primary: 0 0% 10%;
+    --primary-foreground: 0 0% 95%;
+    
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 85%;
+    
+    --muted: 0 0% 6%;
+    --muted-foreground: 0 0% 65%;
+    
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 95%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 12%;
+    --input: 0 0% 8%;
+    --ring: 0 0% 20%;
+    
+    /* Custom semantic tokens for dark mode */
+    --text-primary: 0 0% 95%;
+    --text-secondary: 0 0% 65%;
+    --text-accent: 0 0% 85%;
+    --gradient-subtle: linear-gradient(135deg, 0 0% 4%, 0 0% 3%);
+    --shadow-minimal: 0 1px 3px 0 rgb(0 0 0 / 0.3);
+    --shadow-elevated: 0 4px 12px 0 rgb(0 0 0 / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
