@@ -5,12 +5,22 @@ import { ArticleCard } from "@/components/ArticleCard";
 // Sample articles data
 const articles = [
   {
+    title: "How does UPI work?",
+    excerpt: "It's worth a thought how our long hours of NEFT payments and ATM lines are reduced to seconds by UPI. This article is a quick read of how our payments happen",
+    date: "September 8, 2025",
+    readTime: "4 min read",
+    category: "Technology",
+    link: "/articles/UPIworks"
+  },
+  {
     title: "Creatine : physical and cognitive elixir",
     excerpt: "Creatine is one of the most researched supplements in the world. This guide helps you understand how to use it effectively and safely. Use the interactive tools below to find the right dosage for you.",
     date: "August 18, 2025",
     readTime: "5 min read",
-    category: "Health & Fitness"
+    category: "Health & Fitness",
+    link: "/articles/Creatine-Guide"
   }
+  
 ];
 
 const Index = () => {
@@ -44,6 +54,7 @@ const Index = () => {
                   date={article.date}
                   readTime={article.readTime}
                   category={article.category}
+                  link={article.link}
                 />
               ))}
             </div>

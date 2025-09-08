@@ -7,14 +7,20 @@ interface ArticleCardProps {
   date: string;
   readTime: string;
   category?: string;
+  link?: string;
 }
 
-export const ArticleCard = ({ title, excerpt, date, readTime, category }: ArticleCardProps) => {
+export const ArticleCard = ({ title, excerpt, date, readTime, category, link }: ArticleCardProps) => {
   const navigate = useNavigate();
   
   const handleClick = () => {
-    if (title === "Creatine : physical and cognitive elixir") {
-      navigate("/articles/creatine-guide");
+    if (link) {
+      navigate(link);
+    } else {
+      // Fallback for existing articles without link prop
+      if (title === "Creatine : physical and cognitive elixir") {
+        navigate("/articles/creatine-guide");
+      }
     }
   };
 
