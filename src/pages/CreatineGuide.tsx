@@ -116,7 +116,7 @@ const CreatineGuide = () => {
       return {
         title: "Dosage Analysis",
         content: "This is the clinically effective maintenance dose. Ideal for long-term use to keep muscle stores saturated.",
-        className: "text-primary"
+        className: "text-green-600 dark:text-green-400"
       };
     } else if (dose > 5 && dose <= 10) {
       return {
@@ -226,7 +226,7 @@ const CreatineGuide = () => {
                 value={dose}
                 step="1"
                 onChange={(e) => setDose(parseInt(e.target.value))}
-                className="w-full h-3 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
+                className="w-full h-3 bg-gray-300 dark:bg-gray-600 rounded-lg appearance-none cursor-pointer slider"
               />
             </div>
 
