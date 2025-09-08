@@ -19,6 +19,14 @@ const articles = [
     readTime: "5 min read",
     category: "Health & Fitness",
     link: "/articles/Creatine-Guide"
+  },
+  {
+    title: "Tech-teas : tech bullets",
+    excerpt: "This article consists of random tech bullets/ideas/fullforms facts you didn't know you needed, or maybe would be fun to know.",
+    date: "Periodically Updated",
+    readTime: "fun read",
+    category: "Technology",
+    link: "/articles/Tech-teas"
   }
   
 ];
