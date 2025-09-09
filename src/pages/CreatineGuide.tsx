@@ -21,13 +21,13 @@ const CreatineGuide = () => {
                 label: 'Score',
                 data: [calculateBenefitScore(dose), calculateRiskScore(dose)],
                 backgroundColor: [
-                  'hsl(var(--primary) / 0.6)',
-                  'hsl(var(--destructive) / 0.6)'
-                ],
-                borderColor: [
-                  'hsl(var(--primary))',
-                  'hsl(var(--destructive))'
-                ],
+  'rgba(59, 130, 246, 0.8)',   // Blue with transparency
+  'rgba(239, 68, 68, 0.8)'     // Red with transparency
+],
+borderColor: [
+  'rgb(59, 130, 246)',         // Solid blue
+  'rgb(239, 68, 68)'           // Solid red
+],
                 borderWidth: 1,
                 borderRadius: 5,
               }]
