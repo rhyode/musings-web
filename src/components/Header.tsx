@@ -17,7 +17,7 @@ export const Header = () => {
                 Articles
               </a>
               <a 
-                href="#" 
+                href="#about" 
                 className="text-text-secondary hover:text-text-accent transition-colors duration-200 text-sm font-medium"
               >
                 About
