@@ -14,6 +14,25 @@ const Techteas = () => {
     {
       question: "What's the STAR method?",
       answer: "STAR (Situation, Task, Action, Result) Method is the most viable way to answer any type of behavioural questions at any stage in your career."
+    },
+    {
+      question: "Why can some search bars(engines/websites) can't find things I search for?",
+      answer: "Well, chances are they are using lexical search, that is word by word searching, and even a spelling mistake could make it go wrong, forget about synonyms of the words and all. The good ones might be using semantic search."
+    },
+    {
+      question: "What's Semantic Search?",
+      answer: (
+        <>
+          It's more of understanding the meaning behind the words and searching for it, rather than just lexical search. Can read about it in detail&nbsp;
+          <a
+            href="https://cohere.com/llmu/what-is-semantic-search"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" underline"
+          >
+            here
+          </a>. </>
+      )
     }
   ];
 
