@@ -2,7 +2,7 @@ import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { ArticleCard } from "@/components/ArticleCard";
 
-// Sample articles data
+//articles index
 const articles = [
   {
     title: "How does UPI work?",
@@ -27,6 +27,14 @@ const articles = [
     readTime: "fun read",
     category: "Technology",
     link: "/articles/Tech-teas"
+  },
+  {
+    title: "Quotes I like",
+    excerpt: "A catalogue of quotes, thoughts or lines from books which I stumbled upon and added value to my brain at that point of time.",
+    date: "Periodically Updated",
+    readTime: "fun read",
+    category: "Variable",
+    link: "/articles/QuotesIlike"
   }
   
 ];

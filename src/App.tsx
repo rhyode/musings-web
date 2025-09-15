@@ -8,6 +8,7 @@ import CreatineGuide from "./pages/CreatineGuide";
 import NotFound from "./pages/NotFound";
 import UPIworks from "./pages/UPIworks";
 import Techteas from "./pages/Techteas";
+import QuotesIlike from "./pages/QuotesIlike";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/articles/creatine-guide" element={<CreatineGuide />} />
           <Route path="/articles/UPIworks" element={<UPIworks />} />
           <Route path="/articles/tech-teas" element={<Techteas />} />
+          <Route path="/articles/QuotesIlike" element={<QuotesIlike />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
