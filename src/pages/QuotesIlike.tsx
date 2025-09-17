@@ -18,6 +18,7 @@ const QuotesIlike = () => {
               <li>You need to grow to know you are bad. - Tanmay Tripathi</li>
               <li>The tragedy of life is that it gives us wisdom only when it has stolen youth. Si jeunesse savait, et vieillesse pouvait!—“If youth knew how, and old age could! - Will Durant</li>
               <li>Let ask the gods not for possessions, but for things to do; happiness is in making things rather than in consuming them - Will Durant</li>
+              <li>When you seem to lose faith in the process and think of quitting, remember that someone with half your talent is winning simply because they never doubted themselves and kept showing up day after day, no matter what.</li>
               {/* Add more quotes below as <li> items */}
             </ul>
           </div>

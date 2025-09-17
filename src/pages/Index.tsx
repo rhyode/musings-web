@@ -13,14 +13,6 @@ const articles = [
     link: "/articles/UPIworks"
   },
   {
-    title: "Creatine : physical and cognitive elixir",
-    excerpt: "Creatine is one of the most researched supplements in the world. This guide helps you understand how to use it effectively and safely. Use the interactive tools below to find the right dosage for you.",
-    date: "August 18, 2025",
-    readTime: "5 min read",
-    category: "Health & Fitness",
-    link: "/articles/Creatine-Guide"
-  },
-  {
     title: "Tech-teas : tech bullets",
     excerpt: "This article consists of random tech bullets/ideas/fullforms facts you didn't know you needed, or maybe would be fun to know.",
     date: "Periodically Updated",
@@ -32,9 +24,17 @@ const articles = [
     title: "Quotes I like",
     excerpt: "A catalogue of quotes, thoughts or lines from books which I stumbled upon and added value to my brain at that point of time.",
     date: "Periodically Updated",
-    readTime: "fun read",
+    readTime: "Good read",
     category: "Variable",
     link: "/articles/QuotesIlike"
+  },
+  {
+    title: "Creatine : physical and cognitive elixir",
+    excerpt: "Creatine is one of the most researched supplements in the world. This guide helps you understand how to use it effectively and safely. Use the interactive tools below to find the right dosage for you.",
+    date: "August 18, 2025",
+    readTime: "5 min read",
+    category: "Health & Fitness",
+    link: "/articles/Creatine-Guide"
   }
   
 ];
