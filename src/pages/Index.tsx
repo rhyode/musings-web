@@ -179,7 +179,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-4 md:mb-0">
               <p className="text-text-secondary text-sm">
-                © 2024 Tanmay Tripathi. All rights reserved.
+                © 2025 Tanmay Tripathi. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6">
