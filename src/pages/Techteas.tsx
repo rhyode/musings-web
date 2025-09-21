@@ -37,7 +37,15 @@ const Techteas = () => {
     {
       question: "Do search engines crawl even the private account webpages? #seo",
       answer: "robots.txt is a file which contains pages you don't want SERP to crawl and index, for example due to obvious privacy reasons in case of someone's account on an education website. "
+    },
+    {
+      question: "Why do some Google search results show up with special boxes, images, and summaries, while most are just plain blue links?",
+      answer: "Schema Markup Language/vocab of the major search engines is what is embedded in the codes of such pages which makes some explicit content to appear on the SERP. "
     }
+    /*{
+      question: " ",
+      answer: " "
+    }*/
 
   ];
 
