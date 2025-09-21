@@ -33,7 +33,12 @@ const Techteas = () => {
             here
           </a>. </>
       )
+    },
+    {
+      question: "Do search engines crawl even the private account webpages? #seo",
+      answer: "robots.txt is a file which contains pages you don't want SERP to crawl and index, for example due to obvious privacy reasons in case of someone's account on an education website. "
     }
+
   ];
 
   return (
