@@ -56,7 +56,7 @@ const AboutJSON = () => {
             <h2 className="text-2xl font-serif font-bold text-text-primary mb-6">Example</h2>
             <div className="bg-card p-6 rounded-lg border border-border mb-6">
               <pre className="text-sm text-text-primary overflow-x-auto">
-                <code>{ `[
+                <code>{`[
   {
     "name": "Big Corporation",
     "numberOfEmployees": 10000,
