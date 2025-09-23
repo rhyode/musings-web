@@ -5,10 +5,18 @@ import { ArticleCard } from "@/components/ArticleCard";
 //articles index
 const articles = [
   {
+    title: "JSON - JavaScript Object Notation",
+    excerpt: "The most recent discussions on JSON have been around giving prompts to AI in JSON format. While I'm not gonna teach that, but let's understand what JSON is!",
+    date: "September 23, 2025",
+    readTime: "3 mins read",
+    category: "Technology",
+    link: "/articles/aboutJSON"
+  },
+  {
     title: "How does UPI work?",
     excerpt: "It's worth a thought how our long hours of NEFT payments and ATM lines are reduced to seconds by UPI. This article is a quick read of how our payments happen",
     date: "September 8, 2025",
-    readTime: "4 min read",
+    readTime: "4 mins read",
     category: "Technology",
     link: "/articles/UPIworks"
   },
@@ -32,7 +40,7 @@ const articles = [
     title: "Creatine : physical and cognitive elixir",
     excerpt: "Creatine is one of the most researched supplements in the world. This guide helps you understand how to use it effectively and safely. Use the interactive tools below to find the right dosage for you.",
     date: "August 18, 2025",
-    readTime: "5 min read",
+    readTime: "6 mins read",
     category: "Health & Fitness",
     link: "/articles/Creatine-Guide"
   }

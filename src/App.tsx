@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import UPIworks from "./pages/UPIworks";
 import Techteas from "./pages/Techteas";
 import QuotesIlike from "./pages/QuotesIlike";
+import AboutJSON from "./pages/AboutJSON";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/articles/UPIworks" element={<UPIworks />} />
           <Route path="/articles/tech-teas" element={<Techteas />} />
           <Route path="/articles/QuotesIlike" element={<QuotesIlike />} />
+          <Route path="/articles/aboutJSON" element={<AboutJSON />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
