@@ -24,7 +24,6 @@ const AboutJSON = () => {
             <p className="text-text-secondary leading-relaxed mb-8">
               It is a lightweight, self-describing (easy to read and write), language-independent, data representation format which is used for exchanging data between client/server APIs and configs.
             </p>
-
             <h2 className="text-2xl font-serif font-bold text-text-primary mb-6">JSON Types</h2>
             <ul className="list-disc list-inside space-y-2 text-text-secondary mb-8">
               <li><strong>Strings</strong> - "Hello World"</li>
@@ -74,7 +73,7 @@ const AboutJSON = () => {
             </div>
 
             <p className="text-text-secondary leading-relaxed">
-              Notice that's in double quotes, that's a string, which we give to JavaScript, now we use this function to make it known as JS object - <code className="bg-muted px-2 py-1 rounded text-sm">JSON.parse(companies)</code>
+              WE'll put those in single tick using inside javascript, that's a string, which we give to JavaScript, now when we want to use it we will use the parse to parse into js object - <code className="bg-muted px-2 py-1 rounded text-sm">JSON.parse(companies)</code>
             </p>
           </div>
         </div>
