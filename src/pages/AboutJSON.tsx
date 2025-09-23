@@ -73,7 +73,7 @@ const AboutJSON = () => {
             </div>
 
             <p className="text-text-secondary leading-relaxed">
-              We'll put those in single tick using inside javascript, that's a string, which we give to JavaScript, now when we want to use it we will use the parse to parse into js object - <code className="bg-muted px-2 py-1 rounded text-sm">JSON.parse(companies)</code>
+              We'll put those in single tick, while using in javascript, that's a string, which we give to JavaScript, now when we want to use it we will use the parse to parse into js object - <code className="bg-muted px-2 py-1 rounded text-sm">JSON.parse(companies)</code>
             </p>
           </div>
         </div>
