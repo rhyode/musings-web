@@ -22,7 +22,7 @@ const AboutJSON = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-lg max-w-none">
             <p className="text-text-secondary leading-relaxed mb-8">
-              It is a lightweight, self-describing (easy to read and write), language-independent, data representation format which is used for exchanging data between client/server APIs and configs.
+              It is a lightweight, self-describing (easy to read and write), language-independent, data representation format which is used for exchanging data between client/server APIs and configs...
             </p>
 
             <h2 className="text-2xl font-serif font-bold text-text-primary mb-6">JSON Types</h2>
