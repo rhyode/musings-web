@@ -13,6 +13,7 @@ const QuotesIlike = () => {
           </h1>
           <div className="space-y-6">
             <ul className="list-disc list-inside space-y-4 text-text-secondary leading-relaxed">
+              <li>Urgency is the ultimate accelerant. There’s nothing you can’t accomplish when you set a slightly aggressive deadline.</li>
               <li>As long as you're living your life in alignment with your values, you're exactly where you need to be.</li>
               <li>Janam kab lena hai aur marna kahan par hain ham decide nahi kar sakte, par kaise jeena hai ham decide kar sakte hain. – Dil Bechara (SSR)</li>
               <li>You need to grow to know you are bad. - Tanmay Tripathi</li>
